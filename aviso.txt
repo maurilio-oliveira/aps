@@ -1,0 +1,8 @@
+ adicionar seu email e nome
+  git config --global user.email "you@example.com"
+   git config --global user.email fulano@unip.seila.com
+
+  git config --global user.name "Your Name"
+  git config --global user.name fulano
+
+  leai o read me -> obrigatorio
