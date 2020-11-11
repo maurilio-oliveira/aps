@@ -2,7 +2,7 @@
 
 a = "abcdefghijklmnopqrstuvwxyz"
 aux = "bsalkb;vkdebvsakuvba;sbgkbg"
-b="miguel"
+b="miguel" #input()
 c = int(len(b))
 e = int(len(b)/2)
 d = list(b)
@@ -16,6 +16,6 @@ for i in b:
 
 lado_a = slice(0,e)
 lado_b = slice(e,c)
-print(d[lado_b])
 print(d[lado_a])
+print(d[lado_b])
 
