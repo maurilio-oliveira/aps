@@ -1,5 +1,5 @@
 a = input("test")
-b = a.encode("utf-16")
+b = a.encode("utf-8")
 d = []
 for c in b:
     f = c

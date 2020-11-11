@@ -3,8 +3,8 @@
 palavra = input("texto plano: ")        #texto a ser criptografado
 
 # string with encoding 'utf-8'
-arr = bytes(palavra, 'utf-2')           #palavra -> bytes
-arr2 = str(arr, 'utf-2')
+arr = bytes(palavra, 'utf-8')           #palavra -> bytes
+arr2 = str(arr, 'utf-8')
 
 print(arr,'\n')                         #imprimir resultado caso tenha dado certo
 
