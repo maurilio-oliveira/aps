@@ -5,8 +5,8 @@ def list_creator(txt):
    lista_primaria = list(txt)
    return lista_primaria
 
-#listar e separa
-def sp_list(word):
+#e separa
+def sp_list(word,):
  b=word
  fim = int(len(b))
  meio = int(len(b)/2)
@@ -38,11 +38,14 @@ def conv_bin(a):
  return arr
 
 #lista {join}
-def listaConcat(lista):   
- a = "".join(lista)
- print(a)
- pass
+def WordConcat(word):   
+ word = "".join(word)
+ print(word)
+ return(word)
 
+def ListConcat(listA,listB):   
+ new_list = "".join(listA,listB)
+ return(new_list)
 
 #list -> bin
 def listBin(b,c,d):
