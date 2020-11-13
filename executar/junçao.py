@@ -42,9 +42,12 @@ def WordConcat(word):
  word = "".join(word)
  print(word)
  return(word)
-
+listA = ["o","p","p"]
+listB = ["o","p","q"]
 def ListConcat(listA,listB):   
- new_list = "".join(listA,listB)
+ new_listA = "".join(listA)
+ new_listB = "".join(listB)
+ new_list = new_listA + new_listB
  return(new_list)
 
 #list -> bin
@@ -54,5 +57,5 @@ def listBin(b,c,d):
     d.append(bin(f)[2:])
 
 
-#listar e separar
+
 
