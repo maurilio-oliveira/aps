@@ -1,20 +1,43 @@
 from junçao import*
 
-#def criptografar():
-"""
-    criar_lista
-               \
-                : listbin
-               /
-    codificar  
-    re ordenar #sp_list
-    binario
-    re ordenar # sp_list
-    juntar # listaConcat
-    re odernar #sp list
-    imprimir
-             """
-#a =list_creator("maumau")
-a,b= sp_list("14764")
-c =WordConcat(b,a)
-print(a,b)
+i = ""
+plan_txt ="ma"
+passw= "E"
+
+
+def test(plan,passw):
+   
+ binari = ConvToBin(plan_txt)
+ passW = ConvToBin(passw)
+ k = xor(binari,passW)
+ s =ConvToString(k)
+ return s
+
+def test2(k,p):
+ passW = ConvToBin(p)
+ k = ConvToBin(k)
+ d = xor(k,passW)
+ c = ConvToString(d)
+ return c
+
+while i != "exit()":
+ plan_txt =input("escreva a senha: ")
+ passw= input("escreva o texto a ser codificado: ")
+ a =test(plan_txt,passw)
+ print(a)
+ k = a
+ b = test2(a,passw)
+ print(b)
+
+
+
+
+
+
+
+
+
+
+
+
+    
